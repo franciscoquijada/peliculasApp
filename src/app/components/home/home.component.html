@@ -1,0 +1,20 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center">
+    <h1 class="display-4">Peliculas</h1>
+    <p class="lead">Este es el clon de netflix</p>
+    <div class='container text-center'>
+      <app-galeria
+        [titulo]="tituloCartelera"
+        [pelicula]="cartelera">
+      </app-galeria>
+      <app-galeria
+      [titulo]="tituloPopulares"
+      [pelicula]="populares">
+      </app-galeria>
+      <app-galeria
+      [titulo]="tituloPopularesChildrens"
+      [pelicula]="childrens">
+      </app-galeria>
+    </div>
+  </div>
+</div>
