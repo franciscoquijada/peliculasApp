@@ -1,7 +1,7 @@
 # Description
-  Aplicacion para listar peliculas usando el api de themoviedb
+  Aplicacion para listar peliculas con angular 8, consumiento el api de themoviedb 
 
-# PelisApp
+# PelisApp Angular 8
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.
 
